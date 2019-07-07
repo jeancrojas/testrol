@@ -6,7 +6,7 @@ galaxy_info:
   role_name: testrol
   min_ansible_version: 1.0
   platforms:
-   - name: RHEL
+   - name: EL
      versions:
       - 5
       - 6
