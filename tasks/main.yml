@@ -2,7 +2,7 @@
 #  template: name=file.conf.j2 dest=/tmp/
 - name: 'Generar ficheros de configuracion'
   file:
-    path: '/tmp/{{item}}'
+    path: '/tmp/{{ item }}'
     state: touch
   loop: 
     - file1.conf
