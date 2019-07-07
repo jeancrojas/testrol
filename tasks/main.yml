@@ -1,0 +1,7 @@
+#- name: 'Generar ficheros de configuracion'
+#  template: name=file.conf.j2 dest=/tmp/
+- name: 'Generar ficheros de configuracion'
+  file:
+    path: '/tmp/{{item}}'
+    state: touch
+  with_items: ['file1.conf', 'file2.conf', 'file3.conf','file4.conf']

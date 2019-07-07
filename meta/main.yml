@@ -1,0 +1,27 @@
+---
+galaxy_info:
+  author: "Jean Carlos"
+  company: ScriptingSystems
+  license: BSD
+  role_name: testrol
+  min_ansible_version: 1.0
+  platforms:
+   - name: RHEL
+     versions:
+      - 5
+      - 6
+      - 7
+   - name: Fedora
+     versions:
+      - 16
+      - 17
+      - 18
+   - name: Ubuntu
+     versions:
+      - precise
+      - quantal
+      - raring
+      - saucy
+  categories:
+   - web
+dependencies: []
