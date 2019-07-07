@@ -1,8 +1,18 @@
-# Example Rol Ansible-Galaxy
 ---
 galaxy_info:
   author: "Jean Carlos"
   company: ScriptingSystems
+
+  # If the issue tracker for your role is not on github, uncomment the
+  #   # next line and provide a value
+  #     # issue_tracker_url: http://example.com/issue/tracker
+  #
+  #       # Some suggested licenses:
+  #         # - BSD (default)
+  #           # - MIT
+  #             # - GPLv2
+  #               # - GPLv3
+  #                 # - Apache
   license: BSD
   role_name: testrol
   min_ansible_version: 1.0
