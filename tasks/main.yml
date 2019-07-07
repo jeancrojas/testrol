@@ -4,7 +4,7 @@
   file:
     path: '/tmp/{{ item }}'
     state: touch
-  loop: 
+  loop:
     - file1.conf
     - file2.conf
     - file3.conf
